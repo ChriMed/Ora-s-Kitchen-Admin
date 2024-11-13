@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scal able=no">
+    <title>Oras Kitchen - Administrator Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Enhanced Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="oras.jpg" alt="Oras Kitchen Logo">
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Administrative Site for Ora's Kitchen</h1>
+
+          <h1>Admin - Update</h1>
+          <form id="updateForm">
+            <div> About Us:
+                <textarea name="aboutus" id="aboutus" rows="4" cols="50" placeholder="Enter your information..." ></textarea>
+              
+            <div> Menu Items:
+                <textarea name="menu" id="menu" rows="4" cols="50" placeholder="Enter your information here..." ></textarea>
+              
+            <div> Message:
+              <textarea name="message" id="message" rows="4" cols="50" placeholder="Enter your information here..." ></textarea>
+            </div>
+
+            <div id="errorMessage" class="error-message"></div>
+
+          </form>
+        </div>
+
+      <h1>Admin - Delete</h1>
+      <form id="updateForm">
+        <div> Name of Item :
+            <textarea name="Delete" id="delete" rows="4" cols="50" placeholder="Which Item would you like to delete?" ></textarea>
+        <p></p>
+        <button type="submit" class="btn">Delete</button>
+        <button type="submit" class="btn">Update</button>
+      </form>
+    </div>
+  </section>
+  
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Oras Kitchen. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/oraskitchenusa">
+                    <href="#"><img src="facebook.jpg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/explore/locations/104460217585828/oras-kitchen/?locale=undefined&hl=en">
+                    <href="#"><img src="Instagram.jpg" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
